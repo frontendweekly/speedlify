@@ -9,6 +9,7 @@ package = "./plugins/keep-data-cache"
   for = "/api/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+    Permissions-Policy = "interest-cohort=()"
 
 [[redirects]]
   from = "https://speedlify.netlify.app"
